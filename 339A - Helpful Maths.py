@@ -1,0 +1,5 @@
+s = input().strip()
+numbers = list(map(int, s.split("+")))
+numbers.sort()
+result = "+".join(str(num) for num in numbers)
+print(result)
